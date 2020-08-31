@@ -3,13 +3,13 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import './HomePage.scss';
-import Property from '../../components/Property/Property';
+import PropertyList from '../../components/PropertyList/PropertyList';
 
 export default () => {
     return (
         <div className="homepage">
            <Navbar />
-           <Property />
+           <PropertyList />
            <Footer />
         </div>
     )
