@@ -1,0 +1,40 @@
+.property{
+    width:350px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    box-shadow: 4px 4px 4px lightgray;
+    overflow: hidden;
+}
+
+.property-top{
+    width: 350px;
+    height: 200px;
+  }
+
+.property-bottom{
+   text-align: left;
+}
+.size{
+   position: relative;
+   z-index: 1;
+   bottom: 30px;
+   left: -120px;
+   border-radius: 15px;
+   padding: 3px 10px;
+   background:#242A37;
+   color: white;
+}
+
+.favorite{
+   position: relative;
+   z-index: 1; 
+   bottom: 10px;
+   left: 120px;
+   border-radius: 50%;
+   padding: 3px;
+   background: white;
+   box-shadow: 2px 2px 2px lightgray;
+   cursor: pointer;
+}
