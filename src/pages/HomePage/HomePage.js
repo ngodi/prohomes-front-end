@@ -5,7 +5,8 @@ import Footer from '../../components/Footer/Footer';
 import './HomePage.scss';
 import PropertyList from '../../components/PropertyList/PropertyList';
 import SearchBar from '../../components/SearchBar/SearchBar';
-import ActionButtons from '../../components/ActionButtons/ActionButtons';
+import ActionSection from '../../components/ActionSection/ActionSection';
+
 
 export default () => {
     return (
@@ -13,7 +14,7 @@ export default () => {
            <Navbar />
            <SearchBar />
            <PropertyList />
-           <ActionButtons />
+           <ActionSection />
            <Footer />
         </div>
     )
