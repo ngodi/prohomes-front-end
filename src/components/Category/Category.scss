@@ -1,0 +1,29 @@
+.category{
+    color: #C513AF;
+    font-size: 25px;
+    width: 50vw;
+    margin: 25px auto;
+    p {
+    color: #A7A9AC;
+    }
+}
+.category-btn{
+    span{
+        color: #A7A9AC;
+    }
+}
+.category-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+
+   > *{
+      color: #C513AF;
+      -webkit-box-shadow: 0 0 5px  #A7A9AC;
+        box-shadow: 0 0 5px  #A7A9AC;
+        margin: 5px;
+      width: 45%;
+      height: 25vh;
+    }
+}

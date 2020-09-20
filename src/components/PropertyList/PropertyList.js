@@ -3,7 +3,7 @@ import React from 'react';
 import Property from '../Property/Property';
 import './PropertyList.scss';
 
-const properties = new Array(20).fill(0);
+const properties = new Array(4).fill(0);
 export default () => {
     return (
         <div class="property-list">

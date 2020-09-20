@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import { Route } from 'react-router-dom';
+
 import HomePage from './pages/HomePage/HomePage';
+import Category from './components/Category/Category';
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+       <Route exact path='/' component={HomePage} />
+       <Route path='/category-select' component={Category} />
     </div>
   );
 }
