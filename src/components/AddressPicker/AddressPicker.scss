@@ -1,0 +1,30 @@
+.map{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.mapboxgl-ctrl-group {
+    width: 30px;
+    margin: 10px 0 0 10px;
+}
+
+.address-picker{
+    width: 90vw;
+    margin: 0 auto;
+}
+.btn-default{
+    width: 150px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0 0 3px;
+    color: white;
+    background: #17BEBB;
+    position: absolute;
+    z-index: 1;
+    bottom:200px;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
